@@ -3,6 +3,7 @@ name: AnyRouter 自动签到
 # GitHub Actions 的数据中心出口 IP 会被 anyrouter.top / agentrouter.org 的
 # 阿里云 / Cloudflare 人机验证页面拦截，导致签到几乎全部失败，因此此处已停用
 # 定时触发，仅保留手动 workflow_dispatch 作为应急备份。
+# agent router未成功
 on:
   workflow_dispatch:
 
